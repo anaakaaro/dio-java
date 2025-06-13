@@ -1,3 +1,4 @@
+package dispositivos;
 public interface NavegadorInternet {
     public void exibirPagina(String url);
     public void adicionarNovaAba();

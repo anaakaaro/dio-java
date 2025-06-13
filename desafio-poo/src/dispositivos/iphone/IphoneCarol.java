@@ -1,16 +1,22 @@
+package dispositivos.iphone;
+import dispositivos.Iphone;
+
 public class IphoneCarol {
     public static void main(String[] args) {
         Iphone iphoneCarol = new Iphone();
 
-        iphoneCarol.ligar(null);
+        //Aparelho telefônico
+        iphoneCarol.ligar("(31)99999-9999");
         iphoneCarol.atender();
         iphoneCarol.iniciarCorreioVoz();
 
-        iphoneCarol.exibirPagina(null);
+        //Navegador de internet
+        iphoneCarol.exibirPagina("google.com");
         iphoneCarol.adicionarNovaAba();
         iphoneCarol.atualizarPagina();
 
-        iphoneCarol.selecionarMusica(null);
+        //Reprodutor musical
+        iphoneCarol.selecionarMusica("Only Girl In The World");
         iphoneCarol.tocar();
         iphoneCarol.pausar();
 
